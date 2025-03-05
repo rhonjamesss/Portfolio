@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(206,177,163);
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: rgb(170,132,114);
+}
+
+.header-nav{
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+.header-nav {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+  
+.header-nav li {
+    display: inline;
+}
+  
+.header-nav li a {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    transition: 0.3s;
+  }
+  
+.header-nav li a.active, .header-nav li a:hover {
+    color: #facc15;
+}
+
+.content {
+    max-width: 40%;
+}
+
+#about-me{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    height: 60vh;
+}
+
+#about-me .welcome-text{
+    color: black;
+    font-size: 30px;
+}
+
+#about-me h1{
+    font-size: 48px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+#about-me p{
+    font-size: 18px;
+    margin-top: 10px;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+
+#image-container {
+    max-width: 45%;
+}
+  
+.image-container img {
+    width: 50%;
+    height: 50%;
+    border-radius: 10px;
+}
+  
